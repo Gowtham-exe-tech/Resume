@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="resume-icon.png">
+    <title>My Resume</title>
+    <!-- <style>
+        body{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact a {
+            text-decoration: none;
+        }
+
+        .contact p {
+            margin: 0;
+        }
+
+        .contact a:not(:last-child)::after {
+            content: "|";
+            margin-left: 10px;
+        }
+    </style> -->
+</head>
+
+<body style="font-family: Arial, sans-serif; margin-left: 20px; margin-right: 20px;">
+
+    <header style="text-align:center; margin-bottom:20px;">
+
+        <h1 style="color:#2b6f82;">GOWTHAM G</h1>
+        <p ><strong style="opacity: 0.7;">Full Stack Developer</strong></p>
+        <address class="contact" style="display:flex; justify-content:center; gap:10px;">
+            <p style="margin: 0;">Tiruppur, Tamil Nadu</p>
+            <a href="tel:+919345277643" style="white-space: nowrap;">+91 9345277643</a>
+            <a href="mailto:gowthamaids06@gmail.com">gowthamaids06@gmail.com</a>   
+            <!-- Decided to use _blank for external links -->
+            <a href="https://github.com/Gowtham-exe-tech" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/gowtham-ganesan-112734294" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </address>
+
+    </header>
+
+    <main>
+        <!--Professional Summary Section-->
+        <section>
+
+            <h2 style="color:#2b6f82; margin-bottom: 10px;">PROFESSIONAL SUMMARY</h2>
+            <hr style="border: 1px solid #2b6f82;">
+            <p>Full Stack Developer building real-world, scalable applications using Python, FastAPI, Django, and React. Developed
+systems including a rule-based workflow engine and an AI-powered expense approval platform with OCR and multi-level
+processing. Strong in API design, state-driven architectures, and translating business processes into production-ready software.</p>
+
+        </section>
+
+        <!--Technical Skills Section-->
+        <section>
+
+            <h2 style="color:#2b6f82; margin-bottom: 10px;">TECHNICAL SKILLS</h2>
+            <hr style="border: 1px solid #2b6f82;">
+            <ul style="display:grid; grid-template-columns: repeat(2, 1fr); gap: 10px; list-style-type: disc;">
+                <li><strong>Programming Languages:</strong> Python, JavaScript</li>
+                <li><strong>Backend:</strong> Django, FastAPI</li>
+                <li><strong>Frontend:</strong> HTML, CSS, React</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL, MongoDB</li>
+                <li><strong>Tools:</strong> Git, Postman, Selenium, JMeter</li>
+            </ul>
+
+        </section>
+
+        <!--Collection of projects-->
+        <section>
+
+            <h2 style="color:#2b6f82; margin-bottom: 10px;">PROJECTS</h2>
+            <hr style="border: 1px solid #2b6f82;">
+
+            <!--One Independent Project - a self-contained piece of content-->
+            <article>
+                <h3>AI-Powered Expense Bill Approval System</h3>
+                <p style="font-style: italic;">A full-stack bill processing and multi-level approval platform</p>
+                <ul>
+                    <li>Built end-to-end system using Django (backend) and React (frontend) supporting complete bill lifecycle management</li>
+                    <li>Integrated Pytesseract OCR to auto-extract and categorize data from uploaded bill images, reducing manual entry</li>
+                    <li>Designed role-based, amount-driven approval routing — bills routed to different approvers based on configurable thresholds</li>
+                    <li>Built audit log and analytics dashboard using Chart.js to track expense trends and approval turnaround times</li>
+                    <li>Tech: Python, Django, React, SQLite, Pytesseract, Chart.js</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Workflow Automation Engine</h3>
+                <p style="font-style: italic;">Rule-based process automation engine with live deployment</p>
+                <ul>
+                    <li>Architected a workflow engine enabling dynamic, rule-driven process automation without code changes</li>
+                    <li>Implemented a state machine with support for conditional branching, multi-step approvals, retry logic, and failure handling</li>
+                    <li>Built a rule engine for input-based conditional routing, making workflows configurable via UI rather than hardcoded logic</li>
+                    <li>Added structured audit logging for full execution traceability and transparent decision history</li>
+                    <li>Tech: Python, FastAPI, React, SQLAlchemy, SQLite, PostgreSQL</li>
+                    <li>Live Demo: <a href="https://deploy-check-workflow.vercel.app/" target="_blank" rel="noopener noreferrer">Workflow Automation Engine</a></li>
+                </ul>
+            </article>
+
+        </section>
+
+        <!--Certifications and Achievements-->
+        <section>
+
+            <h2 style="color:#2b6f82; margin-bottom: 10px;">CERTIFICATIONS &amp; ACHIEVEMENTS</h2>
+            <hr style="border: 1px solid #2b6f82;">
+            <ul>
+                <li><b>Computer Networks and Internet Protocols</b> <i>- NPTEL - IIT Kharagpur</i></li>
+                <li><b>Frontend Web Development</b> <i>- InfosysSpringboard</i></li>
+                <li><b>Agile Project Management</b> <i>- HP LIFE</i></li>
+                <li><b>Hackathon Runner-Up</b> <i>- SNS College of Technology - <time datetime="2025-09">September 2025</time></i></li>
+            </ul>
+
+        </section>
+
+        <!--Education Section-->
+        <section>
+
+            <h2 style="color:#2b6f82; margin-bottom: 10px;">EDUCATION</h2>
+            <hr style="border: 1px solid #2b6f82;">
+            <article>
+                <h3 style="font-size: medium;">B.Tech in Artificial Intelligence &amp; Data Science</h3>
+                <p style="font-style: italic; font-size: small;">Erode Sengunthar Engineering College, Erode, Tamil Nadu
+                    <!-- Use time tag for machine readability -->
+                <span style="font-style: italic; text-align:right; font-size: small; float:right;"><time datetime="2023-09">September 2023</time> - Present</span></p>
+            </article>
+
+            <article>
+                <h3 style="font-size: medium;">Higher Secondary Education - Computer Science &amp; Mathematics</h3>
+                <p style="font-style: italic; font-size: small;">Sri Ramakrishna Vidyalaya Matric. Hr. Sec. School, Tiruppur, Tamil Nadu 
+                <span style="font-style: italic; text-align:right; font-size: small; float:right;"><time datetime="2021-08">August 2021</time> - <time datetime="2023-04">April 2023</time></span></p>
+            </article>
+
+        </section>
+
+    </main>
+
+    <!--No meaningful content to use footer -->
+    
+</body>
+</html>
